@@ -1,0 +1,38 @@
+:root {
+  /* font-family: system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  /* Set your background image */
+  background-image: url('https://static.wixstatic.com/media/a27d24_943abe58efda4845b7b590fbd2a7fa91~mv2.gif');
+
+  /* Don't repeat the image */
+  background-repeat: no-repeat;
+
+  /* This is the key property. It fixes the background image. */
+  background-attachment: fixed;
+
+  /* Scale the image to cover the entire viewport */
+  background-size: cover;
+
+  /* Center the image */
+  background-position: center center;
+}
+/* .home{
+
+  height: 100vh;
+  background-position: center; 
+  background-image: url("https://imgd.aeplcdn.com/1920x1080/n/cw/ec/137767/fortuner-legender-exterior-left-front-three-quarter-5.jpeg?isig=0&q=80&q=80");
+}
+.inner{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(151, 121, 121, 0.7);
+} */
+

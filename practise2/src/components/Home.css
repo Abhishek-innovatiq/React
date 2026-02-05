@@ -1,0 +1,19 @@
+.home {
+
+  min-height: 100vh;
+  background-color: rgba(245, 222, 179, 0.233);
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.inner {
+  width: 100%;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  column-gap: 30px;
+}
