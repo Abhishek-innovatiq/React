@@ -1,0 +1,100 @@
+.todo-container {
+  width: 420px;
+  margin: 60px auto;
+  padding: 25px;
+  border-radius: 15px;
+  background: white;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.todo-container h2 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.input-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.input-section input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  outline: none;
+}
+
+.input-section button {
+  padding: 10px 15px;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.input-section button:hover {
+  background: #444;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 25px;
+}
+
+.todo-list li {
+  background: #f5f5f5;
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-list li span {
+  cursor: pointer;
+  flex: 1;
+  text-align: left;
+}
+
+.todo-list li.done span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.delete-btn {
+  border: none;
+  background: crimson;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: darkred;
+}
+
+.btn-group {
+  display: flex;
+  gap: 8px;
+}
+
+.complete-btn {
+  border: none;
+  background: green;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.complete-btn:hover {
+  background: darkgreen;
+}
